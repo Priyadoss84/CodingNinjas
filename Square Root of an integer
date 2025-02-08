@@ -1,0 +1,21 @@
+int squareRoot(int a)
+{
+	// Write your code here.
+		int y=0;
+		if(a==1){
+			return 1;
+		}
+				
+		for(int i=1;i<=a/2;i++)
+		{
+			//cout<<i;
+			
+			if(i*i <= a && i*i >= y)
+			{
+				y=i;
+				
+			}
+			
+		}
+		return y;
+}
